@@ -1,0 +1,7 @@
+rootProject.name = 'cameraHere'
+include ':clevertap-react-native'
+project(':clevertap-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/clevertap-react-native/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+
+include ':app'

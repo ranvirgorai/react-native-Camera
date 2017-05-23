@@ -1,0 +1,14 @@
+PODS:
+  - CleverTap-iOS-SDK (3.1.2):
+    - CleverTap-iOS-SDK/Main (= 3.1.2)
+  - CleverTap-iOS-SDK/Main (3.1.2)
+
+DEPENDENCIES:
+  - CleverTap-iOS-SDK
+
+SPEC CHECKSUMS:
+  CleverTap-iOS-SDK: c054bb514fd8efafc92180acf234711097ad6773
+
+PODFILE CHECKSUM: 7dc2c7edd7df08b9c6128366c5a2a2ddcafe7906
+
+COCOAPODS: 1.2.1
