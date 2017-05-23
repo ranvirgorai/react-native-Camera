@@ -14,6 +14,10 @@
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* cameraHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cameraHereTests.m */; };
 		0D897D531ED35E4700FA0263 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D897D3B1ED35DCB00FA0263 /* libRCTCamera.a */; };
+		0D897DFB1ED431F300FA0263 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D897DF81ED431F200FA0263 /* FBSDKCoreKit.framework */; };
+		0D897DFC1ED431F300FA0263 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D897DF91ED431F200FA0263 /* FBSDKLoginKit.framework */; };
+		0D897DFD1ED431F300FA0263 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D897DFA1ED431F200FA0263 /* FBSDKShareKit.framework */; };
+		0D897DFE1ED4364000FA0263 /* libRCTFBLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D897DB51ED4304D00FA0263 /* libRCTFBLogin.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -105,6 +109,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 5D72D2E81C16249000E22EC1;
 			remoteInfo = CleverTapReact;
+		};
+		0D897DB41ED4304D00FA0263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D897DAA1ED4304D00FA0263 /* RCTFBLogin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F3A6B5B1ACFBCC500CA65F7;
+			remoteInfo = RCTFBLogin;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -266,6 +277,10 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* cameraHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraHereTests.m; sourceTree = "<group>"; };
 		0D897D331ED35DC800FA0263 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
+		0D897DAA1ED4304D00FA0263 /* RCTFBLogin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTFBLogin.xcodeproj; path = "../node_modules/react-native-facebook-login/RCTFBLogin.xcodeproj"; sourceTree = "<group>"; };
+		0D897DF81ED431F200FA0263 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../node_modules/react-native-facebook-login/FacebookSDK/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0D897DF91ED431F200FA0263 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../node_modules/react-native-facebook-login/FacebookSDK/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		0D897DFA1ED431F200FA0263 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../node_modules/react-native-facebook-login/FacebookSDK/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* cameraHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -303,6 +318,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D897DFE1ED4364000FA0263 /* libRCTFBLogin.a in Frameworks */,
+				0D897DFC1ED431F300FA0263 /* FBSDKLoginKit.framework in Frameworks */,
 				0D897D531ED35E4700FA0263 /* libRCTCamera.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
@@ -316,6 +333,8 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				97FA65F0F3CC46D2A2055BBB /* libRCTCamera.a in Frameworks */,
+				0D897DFD1ED431F300FA0263 /* FBSDKShareKit.framework in Frameworks */,
+				0D897DFB1ED431F300FA0263 /* FBSDKCoreKit.framework in Frameworks */,
 				BE12F412C0D148B298161408 /* libCleverTapReact.a in Frameworks */,
 				B0DD78B705F22E676B0DB7D9 /* libPods-cameraHere.a in Frameworks */,
 			);
@@ -429,6 +448,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0D897DAB1ED4304D00FA0263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D897DB51ED4304D00FA0263 /* libRCTFBLogin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,6 +506,9 @@
 		14ADE512C7A22FF63F453486 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D897DF81ED431F200FA0263 /* FBSDKCoreKit.framework */,
+				0D897DF91ED431F200FA0263 /* FBSDKLoginKit.framework */,
+				0D897DFA1ED431F200FA0263 /* FBSDKShareKit.framework */,
 				D184B06ED991D55F70F06BD7 /* libPods-cameraHere.a */,
 			);
 			name = Frameworks;
@@ -505,6 +535,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				0D897DAA1ED4304D00FA0263 /* RCTFBLogin.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -704,6 +735,10 @@
 					ProjectRef = 506B2D225F8E4302999A7B0E /* RCTCamera.xcodeproj */;
 				},
 				{
+					ProductGroup = 0D897DAB1ED4304D00FA0263 /* Products */;
+					ProjectRef = 0D897DAA1ED4304D00FA0263 /* RCTFBLogin.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
 					ProjectRef = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
 				},
@@ -805,6 +840,13 @@
 			fileType = archive.ar;
 			path = libCleverTapReact.a;
 			remoteRef = 0D897D711ED3EE5000FA0263 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D897DB51ED4304D00FA0263 /* libRCTFBLogin.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTFBLogin.a;
+			remoteRef = 0D897DB41ED4304D00FA0263 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
@@ -1187,6 +1229,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9972525W3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/CleverTap-iOS-SDK\"",
+					"$(SRCROOT)/../node_modules/react-native-facebook-login/FacebookSDK/**",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
@@ -1211,6 +1258,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9972525W3Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/CleverTap-iOS-SDK\"",
+					"$(SRCROOT)/../node_modules/react-native-facebook-login/FacebookSDK/**",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",

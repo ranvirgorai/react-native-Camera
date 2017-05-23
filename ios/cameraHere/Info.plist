@@ -32,6 +32,28 @@
 	<string>6ZR-KZ5-594Z</string>
 	<key>CleverTapToken</key>
 	<string>513-216</string>
+
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+  <key>CFBundleURLSchemes</key>
+  <array>
+    <string>fb1676236542685692</string>
+  </array>
+  </dict>
+</array>
+<key>FacebookAppID</key>
+<string>1676236542685692</string>
+<key>FacebookDisplayName</key>
+<string>CameraApp</string>
+
+<key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>fbapi</string>
+  <string>fb-messenger-api</string>
+  <string>fbauth2</string>
+  <string>fbshareextension</string>
+</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
